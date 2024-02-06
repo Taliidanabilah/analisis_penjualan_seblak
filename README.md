@@ -16,7 +16,7 @@ _Graded Challenge ini dibuat guna mengevaluasi pembelajaran pada Hacktiv8 Data S
   -  **Notebook (.ipynb)** yang berisikan pengambilan, pengolahan, dan analisis data. Kerjakan dengan Visual Studio Code!
 
 3. Notebook **wajib** diberikan keterangan atau pengenalan dengan menggunakan `comment` atau `docstring` yang berisikan Judul tugas, Nama, Batch, dan penjelasan singkat tentang program yang dibuat, fitur-fitur. Contoh:
-    ```py
+    ```py  
     '''
     =================================================
     Graded Challenge 2
@@ -69,13 +69,14 @@ Tantangannya, kamu tidak punya data sama sekali selain yang terpampang pada webs
 #### A. Web Scraping
 1. Lakukan pengambilan data dari halaman pencarian kata kunci produk "seblak". Kamu bisa langsung akses link ini:
   https://www.tokopedia.com/search?navsource=&page=1&q=seblak&srp_component_id=02.01.00.00&srp_page_id=&srp_page_title=&st=
+  "?.
   
   Berikut tampilan halaman link di atas:
   ![img](https://github.com/FTDS-learning-materials/phase-0/blob/main/img/p0gc3_1.png?raw=true)
-
+  
 2. Ambil data `Nama Produk`, `Harga Produk`, `Penjual`, `Kota Toko`, `Banyaknya Terjual`, dan `Rating Produk`.
 
-3. Tokopedia memiliki skema promosi sehingga pada panel teratas merupakan info produk suatu merchant yang membayar iklan. Kita akan ambil produk di dalam box yang reguler dengan elemen `<div class="css-974ipl">`.
+3. Tokopedia memiliki skema promosi sehingga pada panel teratas merupakan info produk suatu merchant yang membayar iklan. Kita akan ambil produk di dalam box yang reguler dengan elemen `<div class="css-974ipl">`. 
 
   **Tambahan:** untuk produk baru, belum ada informasi berapa produk yang terjual dan rating sehingga hasil akhir akan berbeda jumlah data yang diperoleh untuk kolom `Banyaknya Terjual` dan `Rating Produk` seperti contoh gambar di bawah:
 
